@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pay_flow/shared/themes/app_colors.dart';
+import 'package:pay_flow/modules/login/login_page.dart';
 
-import 'modules/login/login_page.dart';
-import 'modules/splash/splash_page.dart';
-
-void main() {
-  runApp(AppWidget());
-}
+import 'themes/app_colors.dart';
 
 class AppWidget extends StatelessWidget {
   @override
