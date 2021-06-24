@@ -10,4 +10,6 @@ O objetivo da NLW Together 2021, na trilha Flutter, é aprimorar o desenvolvimen
   
   • Banco de imagens: https://github.com/rocketseat-education/nlw-06-flutter/tree/images
 
-- Arquitetura: MVC - Model View Controller
+- Arquitetura: MVC - Model View Controller;
+
+- Integração com Firebase;
