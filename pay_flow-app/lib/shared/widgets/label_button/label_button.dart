@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pay_flow/shared/themes/app_text_styles.dart';
 
 class LabelButton extends StatelessWidget {
   final String label;
@@ -11,9 +12,15 @@ class LabelButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
-      onPressed: onPressed,
-      child: Text(label),
+    return Container(
+      height: 56,
+      child: TextButton(
+        onPressed: onPressed,
+        child: Text(
+          label,
+          style: TextStyles.buttonHeading,
+        ),
+      ),
     );
   }
 }
